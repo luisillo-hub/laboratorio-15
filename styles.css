@@ -141,6 +141,9 @@ para tablets y dispositivos medianos*/
     .contenido-pie{
         grid-template-columns: repeat(2, 1fr);
     }
+     .contenido-seccion{
+        flex-direction: column;
+    }
 }
 /*para dispositivos moviles*/
 @media(max-width: 480px){
